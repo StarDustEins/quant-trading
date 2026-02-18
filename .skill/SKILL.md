@@ -1,6 +1,21 @@
 # Quant Trading Skill
 
-美股量化交易分析 skill，基于策略文件执行模拟交易。
+美股量化交易分析 skill，基于 `.skill/strategy.md` 中的策略执行模拟交易。
+
+## 文件结构
+
+```
+quant-trading/
+├── .skill/
+│   ├── SKILL.md      # 本文件
+│   └── strategy.md  # 交易策略配置
+├── log/
+│   ├── portfolio.json  # 持仓数据
+│   └── trades/         # 交易记录
+├── backtest/
+│   └── backtest.py    # 回测代码
+└── README.md
+```
 
 ## 功能
 
@@ -9,21 +24,12 @@
 - 计算持仓盈亏
 - Git 版本管理策略变更
 
-## 文件结构
-
-```
-~/.openclaw/workspace/quant/
-├── portfolio.json  # 持仓数据
-├── strategy.md     # 交易策略
-└── README.md       # 说明文档
-```
-
 ## 每日任务
 
-1. **读取持仓** - 从 portfolio.json 获取当前持仓
+1. **读取持仓** - 从 `log/portfolio.json` 获取当前持仓
 2. **获取数据** - 访问 Yahoo Finance 获取实时行情
-3. **分析策略** - 根据 strategy.md 中的规则决定买卖
-4. **更新持仓** - 修改 portfolio.json
+3. **分析策略** - 根据 `.skill/strategy.md` 中的规则决定买卖
+4. **更新持仓** - 修改 `log/portfolio.json`
 5. **Git 提交** - 记录每次调仓变化
 6. **生成报告** - 发送给用户
 
@@ -49,12 +55,4 @@
 
 ## 策略调整
 
-修改 `strategy.md` 文件调整策略，所有变更通过 Git 版本管理。
-
-## 使用方法
-
-在任务中说明使用此 skill，agent 会自动：
-1. 读取当前持仓和策略
-2. 获取市场数据
-3. 分析并生成报告
-4. 更新 portfolio.json 并提交 git
+修改 `.skill/strategy.md` 文件调整策略，所有变更通过 Git 版本管理。
