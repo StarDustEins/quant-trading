@@ -1,16 +1,31 @@
 {
   "version": "1.0.0",
   "createdAt": "2026-02-18",
+  "updatedAt": "2026-02-23",
   "initialCapital": 1000000,
-  "cash": 800000,
+  "cash": 550000,
   "positions": [
     {
-      "code": "300251",
+      "code": "300251.SZ",
       "name": "光线传媒",
       "shares": 7400,
       "avgCost": 27.00,
       "currentPrice": 27.22,
-      "buyDate": "2026-02-19"
+      "buyDate": "2026-02-19",
+      "marketValue": 201428,
+      "unrealizedPnL": 1628,
+      "unrealizedPnLPercent": 0.81
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA Corporation",
+      "shares": 1300,
+      "avgCost": 185.00,
+      "currentPrice": 189.82,
+      "buyDate": "2026-02-23",
+      "marketValue": 246766,
+      "unrealizedPnL": 6266,
+      "unrealizedPnLPercent": 2.61
     }
   ],
   "history": [
@@ -43,6 +58,16 @@
       "price": 27.22,
       "amount": 201428,
       "note": "继续持有，等待更好买入时机"
+    },
+    {
+      "date": "2026-02-23",
+      "action": "buy",
+      "code": "NVDA",
+      "name": "NVIDIA Corporation",
+      "shares": 1300,
+      "price": 185.00,
+      "amount": 240500,
+      "note": "建仓 AI 芯片龙头，分散投资组合，长期看好 AI 发展"
     }
   ]
 }
