@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-02-23",
+  "updatedAt": "2026-03-02",
   "initialCapital": 1000000,
   "cash": 550000,
   "positions": [
@@ -10,22 +10,24 @@
       "name": "光线传媒",
       "shares": 7400,
       "avgCost": 27.00,
-      "currentPrice": 27.22,
+      "currentPrice": 19.49,
       "buyDate": "2026-02-19",
-      "marketValue": 201428,
-      "unrealizedPnL": 1628,
-      "unrealizedPnLPercent": 0.81
+      "marketValue": 144226,
+      "unrealizedPnL": -55626,
+      "unrealizedPnLPercent": -27.81,
+      "currency": "CNY"
     },
     {
       "code": "NVDA",
       "name": "NVIDIA Corporation",
       "shares": 1300,
       "avgCost": 185.00,
-      "currentPrice": 189.82,
+      "currentPrice": 177.19,
       "buyDate": "2026-02-23",
-      "marketValue": 246766,
-      "unrealizedPnL": 6266,
-      "unrealizedPnLPercent": 2.61
+      "marketValue": 230347,
+      "unrealizedPnL": -10153,
+      "unrealizedPnLPercent": -4.22,
+      "currency": "USD"
     }
   ],
   "history": [
@@ -68,6 +70,36 @@
       "price": 185.00,
       "amount": 240500,
       "note": "建仓 AI 芯片龙头，分散投资组合，长期看好 AI 发展"
+    },
+    {
+      "date": "2026-02-25",
+      "action": "analyze",
+      "note": "光线传媒大幅下跌19.99%，NVDA上涨0.68%。建议：止损光线传媒，转投美股科技龙头",
+      "recommendations": [
+        "SELL 300251.SZ (光线传媒) - 止损离场，避免更大损失",
+        "BUY AMD - AI芯片竞争者，受益于Meta大单",
+        "HOLD NVDA - 继续持有，等待财报"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "action": "analyze",
+      "note": "地缘政治紧张（伊朗冲突）导致市场风险规避情绪升温，科技股承压。NVDA 下跌 4.16% 至$177.19，光线传媒下跌 1.86% 至 19.49 CNY。VIX 指数上升 6.60% 至 19.86，市场波动加剧。",
+      "marketConditions": {
+        "sp500Futures": "-1.07%",
+        "nasdaqFutures": "-1.09%",
+        "vix": "19.86 (+6.60%)",
+        "oil": "+7.42%",
+        "gold": "+2.94%",
+        "sentiment": "risk-off"
+      },
+      "recommendations": [
+        "SELL 300251.SZ (光线传媒) - 连续多日下跌，已亏损 27.81%，建议止损离场，回收资金约 144,226 CNY",
+        "HOLD NVDA - 短期回调但长期 AI 趋势不变，分析师平均目标价$263.39，上涨空间 48.6%",
+        "BUY AMD - 现价$200.21，AI 芯片竞争者，受益于多元化需求",
+        "BUY AVGO - 现价$319.55，半导体龙头，市值 1.515T，稳定增长",
+        "CONSIDER GOLD/ETF - 地缘政治风险下避险资产配置"
+      ]
     }
   ]
 }
