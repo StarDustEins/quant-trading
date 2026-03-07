@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-03-05",
+  "updatedAt": "2026-03-07",
   "initialCapital": 1000000,
   "cash": 550000,
   "positions": [
@@ -74,10 +74,10 @@
     {
       "date": "2026-02-25",
       "action": "analyze",
-      "note": "光线传媒大幅下跌19.99%，NVDA上涨0.68%。建议：止损光线传媒，转投美股科技龙头",
+      "note": "光线传媒大幅下跌 19.99%，NVDA 上涨 0.68%。建议：止损光线传媒，转投美股科技龙头",
       "recommendations": [
         "SELL 300251.SZ (光线传媒) - 止损离场，避免更大损失",
-        "BUY AMD - AI芯片竞争者，受益于Meta大单",
+        "BUY AMD - AI 芯片竞争者，受益于 Meta 大单",
         "HOLD NVDA - 继续持有，等待财报"
       ]
     },
@@ -125,6 +125,33 @@
         "BUY GOOGL - 现价~$180，估值合理，AI 投资回报显现",
         "BUY TSLA - 现价~$350，机器人+AI 概念，高弹性配置",
         "保持现金仓位~55% 以应对市场波动"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "action": "analyze",
+      "note": "每日量化分析报告（周六）。由于 API 限制，使用 2026-03-05 收盘价进行分析。光线传媒持续亏损 -27.81%，NVDA 回调 -4.22%。建议立即止损 A 股持仓，调仓至美股科技龙头。",
+      "marketConditions": {
+        "sp500Futures": "data unavailable",
+        "nasdaqFutures": "data unavailable",
+        "vix": "data unavailable",
+        "sentiment": "cautious"
+      },
+      "portfolioSummary": {
+        "totalValue": 800378,
+        "totalPnL": -199622,
+        "totalPnLPercent": -19.96,
+        "cashPosition": 550000,
+        "equityValue": 250378,
+        "cashPercent": 68.72
+      },
+      "recommendations": [
+        "【紧急】SELL 300251.SZ (光线传媒) 7400 股 - 已亏损 27.81% (-¥55,626)，建议立即止损，回收资金约¥144,226 CNY",
+        "HOLD NVDA - 持有 1300 股，AI 长期趋势不变，等待市场回暖",
+        "BUY AMD - 建议配置$50,000 (~250 股@~$200)，AI 芯片多元化配置",
+        "BUY MSFT - 建议配置$80,000 (~190 股@~$420)，云计算+AI 稳健选择",
+        "BUY GOOGL - 建议配置$50,000 (~278 股@~$180)，估值合理，AI 变现能力强",
+        "保持现金仓位~40% 以应对市场波动和把握机会"
       ]
     }
   ]
