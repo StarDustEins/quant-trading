@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-03-07",
+  "updatedAt": "2026-03-08",
   "initialCapital": 1000000,
   "cash": 550000,
   "positions": [
@@ -13,7 +13,7 @@
       "currentPrice": 19.49,
       "buyDate": "2026-02-19",
       "marketValue": 144226,
-      "unrealizedPnL": -55626,
+      "unrealizedPnL": -55574,
       "unrealizedPnLPercent": -27.81,
       "currency": "CNY"
     },
@@ -22,11 +22,11 @@
       "name": "NVIDIA Corporation",
       "shares": 1300,
       "avgCost": 185.00,
-      "currentPrice": 177.19,
+      "currentPrice": 177.82,
       "buyDate": "2026-02-23",
-      "marketValue": 230347,
-      "unrealizedPnL": -10153,
-      "unrealizedPnLPercent": -4.22,
+      "marketValue": 231166,
+      "unrealizedPnL": -9334,
+      "unrealizedPnLPercent": -3.88,
       "currency": "USD"
     }
   ],
@@ -151,6 +151,41 @@
         "BUY AMD - 建议配置$50,000 (~250 股@~$200)，AI 芯片多元化配置",
         "BUY MSFT - 建议配置$80,000 (~190 股@~$420)，云计算+AI 稳健选择",
         "BUY GOOGL - 建议配置$50,000 (~278 股@~$180)，估值合理，AI 变现能力强",
+        "保持现金仓位~40% 以应对市场波动和把握机会"
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "action": "analyze",
+      "note": "每日量化分析报告（周日）。市场大幅回调，科技股普遍下跌。S&P 500 -1.33%，NASDAQ -1.59%，VIX 飙升至 29.49 (+24.17%) 显示市场恐慌情绪。伊朗冲突持续，油价上涨推动通胀担忧。",
+      "marketConditions": {
+        "sp500": "6,740.02 (-1.33%)",
+        "nasdaq": "22,387.68 (-1.59%)",
+        "vix": "29.49 (+24.17%)",
+        "sentiment": "risk-off"
+      },
+      "stockPrices": {
+        "NVDA": 177.82,
+        "AMD": 192.43,
+        "MSFT": 408.06,
+        "GOOGL": 208.52,
+        "TSLA": 390.73,
+        "AVGO": 330.48
+      },
+      "portfolioSummary": {
+        "totalValue": 801197,
+        "totalPnL": -198803,
+        "totalPnLPercent": -19.88,
+        "cashPosition": 550000,
+        "equityValue": 251197,
+        "cashPercent": 68.65
+      },
+      "recommendations": [
+        "【紧急】SELL 300251.SZ (光线传媒) 7400 股 - 已亏损 27.81% (-¥55,574 CNY)，建议立即止损，回收资金约¥144,226 CNY (~$20,000)",
+        "HOLD NVDA - 持有 1300 股，现价$177.82，亏损 -3.88%，AI 长期趋势不变，等待市场回暖",
+        "BUY AMD - 建议配置$50,000 (~260 股@$192.43)，AI 芯片多元化配置，受益于数据中心需求",
+        "BUY MSFT - 建议配置$80,000 (~196 股@$408.06)，云计算+AI 稳健选择，Azure 增长强劲",
+        "BUY GOOGL - 建议配置$50,000 (~240 股@$208.52)，估值合理，AI 变现能力强，搜索业务稳定",
         "保持现金仓位~40% 以应对市场波动和把握机会"
       ]
     }
