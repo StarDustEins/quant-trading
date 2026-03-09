@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-03-08",
+  "updatedAt": "2026-03-09",
   "initialCapital": 1000000,
   "cash": 550000,
   "positions": [
@@ -15,20 +15,49 @@
       "marketValue": 144226,
       "unrealizedPnL": -55574,
       "unrealizedPnLPercent": -27.81,
-      "currency": "CNY"
+      "currency": "CNY",
+      "note": "【建议止损】影视传媒行业受流媒体冲击，连续多日下跌，已亏损 27.81%"
     },
     {
       "code": "NVDA",
       "name": "NVIDIA Corporation",
       "shares": 1300,
       "avgCost": 185.00,
-      "currentPrice": 177.82,
+      "currentPrice": 177.88,
       "buyDate": "2026-02-23",
-      "marketValue": 231166,
-      "unrealizedPnL": -9334,
-      "unrealizedPnLPercent": -3.88,
-      "currency": "USD"
+      "marketValue": 231244,
+      "unrealizedPnL": -9256,
+      "unrealizedPnLPercent": -3.85,
+      "currency": "USD",
+      "note": "【持有】AI 芯片龙头，分析师目标价$265，上涨空间 49%，长期趋势不变"
     }
+  ],
+  "marketConditions": {
+    "date": "2026-03-09",
+    "sp500": "6,740.02 (-1.33%)",
+    "nasdaq": "22,387.68 (-1.59%)",
+    "vix": "29.49 (+24.17%)",
+    "oil": "108.08 (+18.90%)",
+    "gold": "5,074.50 (-1.63%)",
+    "sentiment": "risk-off",
+    "note": "伊朗冲突升级，油价暴涨至$100 以上，市场恐慌情绪升温，科技股普遍回调"
+  },
+  "portfolioSummary": {
+    "totalValue": 801244,
+    "totalPnL": -198756,
+    "totalPnLPercent": -19.88,
+    "cashPosition": 550000,
+    "equityValue": 251244,
+    "cashPercent": 68.64,
+    "currencyNote": "股权价值包含 USD 和 CNY 资产，CNY 资产约¥144,226 (~$20,000)"
+  },
+  "recommendations": [
+    "【紧急】SELL 300251.SZ (光线传媒) 7400 股 - 已亏损 27.81% (-¥55,574 CNY)，建议立即止损，回收资金约¥144,226 CNY (~$20,000)",
+    "HOLD NVDA - 持有 1300 股，现价$177.88，亏损 -3.85%，AI 长期趋势不变，分析师目标价$265",
+    "BUY AMD - 建议配置$50,000 (~260 股@$192.44)，AI 芯片多元化配置，数据中心需求强劲",
+    "BUY MSFT - 建议配置$80,000 (~196 股@$408.96)，云计算+AI 双轮驱动，Azure 增长强劲",
+    "BUY GOOGL - 建议配置$50,000 (~168 股@$298.48)，估值合理，AI 变现能力强，搜索业务稳定",
+    "保持现金仓位~40% 以应对市场波动和把握机会"
   ],
   "history": [
     {
@@ -186,6 +215,43 @@
         "BUY AMD - 建议配置$50,000 (~260 股@$192.43)，AI 芯片多元化配置，受益于数据中心需求",
         "BUY MSFT - 建议配置$80,000 (~196 股@$408.06)，云计算+AI 稳健选择，Azure 增长强劲",
         "BUY GOOGL - 建议配置$50,000 (~240 股@$208.52)，估值合理，AI 变现能力强，搜索业务稳定",
+        "保持现金仓位~40% 以应对市场波动和把握机会"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "action": "analyze",
+      "note": "每日量化分析报告。市场延续跌势，伊朗冲突升级导致油价突破$100 大关，市场恐慌情绪加剧。VIX 指数飙升至 29.49，创数月新高。科技股集体回调，但 AI 长期趋势未变，逢低布局优质标的。",
+      "marketConditions": {
+        "sp500": "6,740.02 (-1.33%)",
+        "nasdaq": "22,387.68 (-1.59%)",
+        "vix": "29.49 (+24.17%)",
+        "oil": "108.08 (+18.90%)",
+        "gold": "5,074.50 (-1.63%)",
+        "sentiment": "risk-off"
+      },
+      "stockPrices": {
+        "NVDA": 177.88,
+        "AMD": 192.44,
+        "MSFT": 408.96,
+        "GOOGL": 298.48,
+        "TSLA": 396.73,
+        "AVGO": 330.45
+      },
+      "portfolioSummary": {
+        "totalValue": 801244,
+        "totalPnL": -198756,
+        "totalPnLPercent": -19.88,
+        "cashPosition": 550000,
+        "equityValue": 251244,
+        "cashPercent": 68.64
+      },
+      "recommendations": [
+        "【紧急】SELL 300251.SZ (光线传媒) 7400 股 - 已亏损 27.81% (-¥55,574 CNY)，建议立即止损，回收资金约¥144,226 CNY (~$20,000)",
+        "HOLD NVDA - 持有 1300 股，现价$177.88，亏损 -3.85%，AI 长期趋势不变，分析师目标价$265",
+        "BUY AMD - 建议配置$50,000 (~260 股@$192.44)，AI 芯片多元化配置，数据中心需求强劲",
+        "BUY MSFT - 建议配置$80,000 (~196 股@$408.96)，云计算+AI 双轮驱动，Azure 增长强劲",
+        "BUY GOOGL - 建议配置$50,000 (~168 股@$298.48)，估值合理，AI 变现能力强，搜索业务稳定",
         "保持现金仓位~40% 以应对市场波动和把握机会"
       ]
     }
