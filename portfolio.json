@@ -1,46 +1,72 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-03-09",
+  "updatedAt": "2026-03-10",
   "initialCapital": 1000000,
-  "cash": 550000,
+  "cash": 214226,
   "positions": [
-    {
-      "code": "300251.SZ",
-      "name": "光线传媒",
-      "shares": 7400,
-      "avgCost": 27.00,
-      "currentPrice": 19.49,
-      "buyDate": "2026-02-19",
-      "marketValue": 144226,
-      "unrealizedPnL": -55574,
-      "unrealizedPnLPercent": -27.81,
-      "currency": "CNY",
-      "note": "【建议止损】影视传媒行业受流媒体冲击，连续多日下跌，已亏损 27.81%"
-    },
     {
       "code": "NVDA",
       "name": "NVIDIA Corporation",
       "shares": 1300,
       "avgCost": 185.00,
-      "currentPrice": 177.88,
+      "currentPrice": 182.65,
       "buyDate": "2026-02-23",
-      "marketValue": 231244,
-      "unrealizedPnL": -9256,
-      "unrealizedPnLPercent": -3.85,
+      "marketValue": 237445,
+      "unrealizedPnL": -3155,
+      "unrealizedPnLPercent": -1.05,
       "currency": "USD",
-      "note": "【持有】AI 芯片龙头，分析师目标价$265，上涨空间 49%，长期趋势不变"
+      "note": "【持有】AI 芯片龙头，分析师目标价$265，上涨空间 45%，长期趋势不变"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices",
+      "shares": 246,
+      "avgCost": 203.25,
+      "currentPrice": 202.68,
+      "buyDate": "2026-03-10",
+      "marketValue": 49858,
+      "unrealizedPnL": -142,
+      "unrealizedPnLPercent": -0.28,
+      "currency": "USD",
+      "note": "【新买入】AI芯片多元化配置，数据中心需求强劲，受益于AI发展浪潮"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft Corporation",
+      "shares": 195,
+      "avgCost": 410.26,
+      "currentPrice": 409.41,
+      "buyDate": "2026-03-10",
+      "marketValue": 79835,
+      "unrealizedPnL": -145,
+      "unrealizedPnLPercent": -0.18,
+      "currency": "USD",
+      "note": "【新买入】云计算+AI双轮驱动，Azure增长强劲，企业数字化转型受益"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet Inc.",
+      "shares": 167,
+      "avgCost": 299.40,
+      "currentPrice": 306.36,
+      "buyDate": "2026-03-10",
+      "marketValue": 51162,
+      "unrealizedPnL": 1176,
+      "unrealizedPnLPercent": 2.35,
+      "currency": "USD",
+      "note": "【新买入】估值合理，AI变现能力强，搜索业务稳定，YouTube增长强劲"
     }
   ],
   "marketConditions": {
-    "date": "2026-03-09",
-    "sp500": "6,740.02 (-1.33%)",
-    "nasdaq": "22,387.68 (-1.59%)",
-    "vix": "29.49 (+24.17%)",
-    "oil": "108.08 (+18.90%)",
-    "gold": "5,074.50 (-1.63%)",
-    "sentiment": "risk-off",
-    "note": "伊朗冲突升级，油价暴涨至$100 以上，市场恐慌情绪升温，科技股普遍回调"
+    "date": "2026-03-10",
+    "sp500": "6,774.00 (-0.40%)",
+    "nasdaq": "24,884.25 (-0.43%)",
+    "vix": "25.50 (-13.53%)",
+    "oil": "88.52 (-6.59%)",
+    "gold": "5,143.90 (+0.79%)",
+    "sentiment": "cautious-optimistic",
+    "note": "伊朗冲突可能结束，油价回调，市场情绪改善，科技股反弹"
   },
   "portfolioSummary": {
     "totalValue": 801244,
@@ -49,15 +75,16 @@
     "cashPosition": 550000,
     "equityValue": 251244,
     "cashPercent": 68.64,
-    "currencyNote": "股权价值包含 USD 和 CNY 资产，CNY 资产约¥144,226 (~$20,000)"
+    "currencyNote": "股权价值包含 USD 和 CNY 资产，CNY 资产约¥144,226 (~$20,000)，今日执行调仓计划"
   },
   "recommendations": [
-    "【紧急】SELL 300251.SZ (光线传媒) 7400 股 - 已亏损 27.81% (-¥55,574 CNY)，建议立即止损，回收资金约¥144,226 CNY (~$20,000)",
-    "HOLD NVDA - 持有 1300 股，现价$177.88，亏损 -3.85%，AI 长期趋势不变，分析师目标价$265",
-    "BUY AMD - 建议配置$50,000 (~260 股@$192.44)，AI 芯片多元化配置，数据中心需求强劲",
-    "BUY MSFT - 建议配置$80,000 (~196 股@$408.96)，云计算+AI 双轮驱动，Azure 增长强劲",
-    "BUY GOOGL - 建议配置$50,000 (~168 股@$298.48)，估值合理，AI 变现能力强，搜索业务稳定",
-    "保持现金仓位~40% 以应对市场波动和把握机会"
+    "✅ 已执行：SELL 300251.SZ (光线传媒) 7400 股 - 止损离场，回收资金¥144,226 CNY",
+    "✅ 已执行：BUY AMD 246股@$203.25 - AI芯片多元化配置，$50,000",
+    "✅ 已执行：BUY MSFT 195股@$410.26 - 云计算+AI双轮驱动，$80,000",
+    "✅ 已执行：BUY GOOGL 167股@$299.40 - 估值合理，AI变现能力强，$50,000",
+    "HOLD NVDA - 持有 1300 股，现价$182.65，亏损 -1.05%，AI长期趋势不变",
+    "继续关注：市场情绪改善，科技股反弹，逢低布局优质标的",
+    "保持现金仓位~27% 以应对市场波动和把握机会"
   ],
   "history": [
     {
@@ -253,6 +280,76 @@
         "BUY MSFT - 建议配置$80,000 (~196 股@$408.96)，云计算+AI 双轮驱动，Azure 增长强劲",
         "BUY GOOGL - 建议配置$50,000 (~168 股@$298.48)，估值合理，AI 变现能力强，搜索业务稳定",
         "保持现金仓位~40% 以应对市场波动和把握机会"
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "action": "rebalance",
+      "note": "执行调仓计划：卖出光线传媒止损，买入美股科技龙头。伊朗冲突可能结束，油价回调，市场情绪改善，科技股反弹，逢低布局优质AI和云计算标的。",
+      "marketConditions": {
+        "sp500": "6,774.00 (-0.40%)",
+        "nasdaq": "24,884.25 (-0.43%)",
+        "vix": "25.50 (-13.53%)",
+        "oil": "88.52 (-6.59%)",
+        "gold": "5,143.90 (+0.79%)",
+        "sentiment": "cautious-optimistic"
+      },
+      "executedTrades": [
+        {
+          "action": "SELL",
+          "code": "300251.SZ",
+          "name": "光线传媒",
+          "shares": 7400,
+          "price": 19.49,
+          "amount": 144226,
+          "currency": "CNY",
+          "note": "止损离场，亏损 -27.81%"
+        },
+        {
+          "action": "BUY",
+          "code": "AMD",
+          "name": "Advanced Micro Devices",
+          "shares": 246,
+          "price": 203.25,
+          "amount": 50000,
+          "currency": "USD",
+          "note": "AI芯片多元化配置，数据中心需求强劲"
+        },
+        {
+          "action": "BUY",
+          "code": "MSFT",
+          "name": "Microsoft Corporation",
+          "shares": 195,
+          "price": 410.26,
+          "amount": 80000,
+          "currency": "USD",
+          "note": "云计算+AI双轮驱动，Azure增长强劲"
+        },
+        {
+          "action": "BUY",
+          "code": "GOOGL",
+          "name": "Alphabet Inc.",
+          "shares": 167,
+          "price": 299.40,
+          "amount": 50000,
+          "currency": "USD",
+          "note": "估值合理，AI变现能力强，搜索业务稳定"
+        }
+      ],
+      "portfolioSummary": {
+        "totalValue": 801226,
+        "totalPnL": -198774,
+        "totalPnLPercent": -19.88,
+        "cashPosition": 214226,
+        "equityValue": 587000,
+        "cashPercent": 26.73,
+        "currencyNote": "已执行调仓，集中配置美股科技龙头"
+      },
+      "nextSteps": [
+        "继续持有NVDA，等待AI芯片行业复苏",
+        "关注AMD、MSFT、GOOGL财报表现",
+        "保持适度现金仓位，把握市场波动机会",
+        "关注地缘政治发展，及时调整风险敞口"
       ]
     }
   ]
