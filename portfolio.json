@@ -69,13 +69,13 @@
     "note": "伊朗冲突可能结束，油价回调，市场情绪改善，科技股反弹"
   },
   "portfolioSummary": {
-    "totalValue": 801244,
-    "totalPnL": -198756,
+    "totalValue": 801226,
+    "totalPnL": -198774,
     "totalPnLPercent": -19.88,
-    "cashPosition": 550000,
-    "equityValue": 251244,
-    "cashPercent": 68.64,
-    "currencyNote": "股权价值包含 USD 和 CNY 资产，CNY 资产约¥144,226 (~$20,000)，今日执行调仓计划"
+    "cashPosition": 214226,
+    "equityValue": 587000,
+    "cashPercent": 26.73,
+    "currencyNote": "已执行调仓，集中配置美股科技龙头，CNY资产已全部转换"
   },
   "recommendations": [
     "✅ 已执行：SELL 300251.SZ (光线传媒) 7400 股 - 止损离场，回收资金¥144,226 CNY",
