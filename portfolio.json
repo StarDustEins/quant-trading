@@ -1,7 +1,7 @@
 {
   "version": "1.0.5",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-03-10",
+  "updatedAt": "2026-03-12",
   "initialCapital": 1000000,
   "cash": 214226,
   "positions": [
@@ -9,25 +9,25 @@
       "code": "NVDA",
       "name": "NVIDIA Corporation",
       "shares": 1300,
-      "avgCost": 185.00,
-      "currentPrice": 182.65,
+      "avgCost": 185,
+      "currentPrice": 186.03,
       "buyDate": "2026-02-23",
-      "marketValue": 237445,
-      "unrealizedPnL": -3155,
-      "unrealizedPnLPercent": -1.05,
+      "marketValue": 241839,
+      "unrealizedPnL": 1339,
+      "unrealizedPnLPercent": 0.56,
       "currency": "USD",
-      "note": "【持有】AI 芯片龙头，分析师目标价$265，上涨空间 45%，长期趋势不变"
+      "note": "【持有】AI 芯片龙头，现价$186.03，盈利 +0.56%，分析师目标价$266，长期趋势向好"
     },
     {
       "code": "AMD",
       "name": "Advanced Micro Devices",
       "shares": 246,
       "avgCost": 203.25,
-      "currentPrice": 202.68,
+      "currentPrice": 204.83,
       "buyDate": "2026-03-10",
-      "marketValue": 49858,
-      "unrealizedPnL": -142,
-      "unrealizedPnLPercent": -0.28,
+      "marketValue": 50388,
+      "unrealizedPnL": 389,
+      "unrealizedPnLPercent": 0.78,
       "currency": "USD",
       "note": "【新买入】AI芯片多元化配置，数据中心需求强劲，受益于AI发展浪潮"
     },
@@ -36,11 +36,11 @@
       "name": "Microsoft Corporation",
       "shares": 195,
       "avgCost": 410.26,
-      "currentPrice": 409.41,
+      "currentPrice": 404.88,
       "buyDate": "2026-03-10",
-      "marketValue": 79835,
-      "unrealizedPnL": -145,
-      "unrealizedPnLPercent": -0.18,
+      "marketValue": 78952,
+      "unrealizedPnL": -1049,
+      "unrealizedPnLPercent": -1.31,
       "currency": "USD",
       "note": "【新买入】云计算+AI双轮驱动，Azure增长强劲，企业数字化转型受益"
     },
@@ -48,43 +48,42 @@
       "code": "GOOGL",
       "name": "Alphabet Inc.",
       "shares": 167,
-      "avgCost": 299.40,
-      "currentPrice": 306.36,
+      "avgCost": 299.4,
+      "currentPrice": 308.7,
       "buyDate": "2026-03-10",
-      "marketValue": 51162,
-      "unrealizedPnL": 1176,
-      "unrealizedPnLPercent": 2.35,
+      "marketValue": 51553,
+      "unrealizedPnL": 1553,
+      "unrealizedPnLPercent": 3.11,
       "currency": "USD",
       "note": "【新买入】估值合理，AI变现能力强，搜索业务稳定，YouTube增长强劲"
     }
   ],
   "marketConditions": {
-    "date": "2026-03-10",
-    "sp500": "6,774.00 (-0.40%)",
-    "nasdaq": "24,884.25 (-0.43%)",
-    "vix": "25.50 (-13.53%)",
-    "oil": "88.52 (-6.59%)",
-    "gold": "5,143.90 (+0.79%)",
-    "sentiment": "cautious-optimistic",
-    "note": "伊朗冲突可能结束，油价回调，市场情绪改善，科技股反弹"
+    "date": "2026-03-12",
+    "sp500": "6,728.00 (-0.76%)",
+    "nasdaq": "24,785.25 (-0.79%)",
+    "vix": "24.23 (-2.81%)",
+    "oil": "pending",
+    "gold": "5,140.00 (-0.75%)",
+    "sentiment": "cautious",
+    "note": "期货市场小幅回调，VIX 下降显示恐慌情绪缓解，科技股整体稳定"
   },
   "portfolioSummary": {
-    "totalValue": 801226,
-    "totalPnL": -198774,
-    "totalPnLPercent": -19.88,
+    "totalValue": 636958,
+    "totalPnL": -196542,
+    "totalPnLPercent": -19.65,
     "cashPosition": 214226,
-    "equityValue": 587000,
-    "cashPercent": 26.73,
-    "currencyNote": "已执行调仓，集中配置美股科技龙头，CNY资产已全部转换"
+    "equityValue": 422732,
+    "cashPercent": 33.63
   },
   "recommendations": [
-    "✅ 已执行：SELL 300251.SZ (光线传媒) 7400 股 - 止损离场，回收资金¥144,226 CNY",
-    "✅ 已执行：BUY AMD 246股@$203.25 - AI芯片多元化配置，$50,000",
-    "✅ 已执行：BUY MSFT 195股@$410.26 - 云计算+AI双轮驱动，$80,000",
-    "✅ 已执行：BUY GOOGL 167股@$299.40 - 估值合理，AI变现能力强，$50,000",
-    "HOLD NVDA - 持有 1300 股，现价$182.65，亏损 -1.05%，AI长期趋势不变",
-    "继续关注：市场情绪改善，科技股反弹，逢低布局优质标的",
-    "保持现金仓位~27% 以应对市场波动和把握机会"
+    "✅ NVDA: 持有 1300 股，现价$186.03，盈利 +0.56%，AI 龙头趋势向好",
+    "✅ AMD: 持有 246 股，现价$204.83，盈利 +0.78%，数据中心需求强劲",
+    "✅ MSFT: 持有 195 股，现价$404.88，亏损 -1.31%，云计算+AI 双轮驱动",
+    "✅ GOOGL: 持有 167 股，现价$308.70，盈利 +3.11%，估值合理 AI 变现强",
+    "HOLD - 所有持仓表现稳定，继续持有观察",
+    "保持现金仓位~34% 以应对市场波动和把握机会",
+    "关注：AI 芯片需求、云计算增长、美联储政策动向"
   ],
   "history": [
     {
@@ -93,7 +92,7 @@
       "code": "300251",
       "name": "光线传媒",
       "shares": 7400,
-      "price": 27.00,
+      "price": 27,
       "amount": 199800,
       "note": "首次建仓，影视传媒龙头"
     },
@@ -123,7 +122,7 @@
       "code": "NVDA",
       "name": "NVIDIA Corporation",
       "shares": 1300,
-      "price": 185.00,
+      "price": 185,
       "amount": 240500,
       "note": "建仓 AI 芯片龙头，分散投资组合，长期看好 AI 发展"
     },
@@ -330,7 +329,7 @@
           "code": "GOOGL",
           "name": "Alphabet Inc.",
           "shares": 167,
-          "price": 299.40,
+          "price": 299.4,
           "amount": 50000,
           "currency": "USD",
           "note": "估值合理，AI变现能力强，搜索业务稳定"
@@ -350,6 +349,42 @@
         "关注AMD、MSFT、GOOGL财报表现",
         "保持适度现金仓位，把握市场波动机会",
         "关注地缘政治发展，及时调整风险敞口"
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "action": "analyze",
+      "note": "每日量化分析报告。市场小幅回调，科技股整体稳定。NVDA 突破$186，AMD 站上$204，GOOGL 表现最佳 (+3.11%)。总组合企稳回升。",
+      "marketConditions": {
+        "date": "2026-03-12",
+        "sp500": "6,728.00 (-0.76%)",
+        "nasdaq": "24,785.25 (-0.79%)",
+        "vix": "24.23 (-2.81%)",
+        "oil": "pending",
+        "gold": "5,140.00 (-0.75%)",
+        "sentiment": "cautious",
+        "note": "期货市场小幅回调，VIX 下降显示恐慌情绪缓解，科技股整体稳定"
+      },
+      "stockPrices": {
+        "NVDA": 186.03,
+        "AMD": 204.83,
+        "MSFT": 404.88,
+        "GOOGL": 308.7
+      },
+      "portfolioSummary": {
+        "totalValue": 636958,
+        "totalPnL": -196542,
+        "totalPnLPercent": -19.65,
+        "cashPosition": 214226,
+        "equityValue": 422732,
+        "cashPercent": 33.63
+      },
+      "recommendations": [
+        "HOLD NVDA - 现价$186.03，盈利+0.56%，分析师目标价$266，继续持有",
+        "HOLD AMD - 现价$204.83，盈利+0.78%，AI 芯片多元化配置见效",
+        "HOLD MSFT - 现价$404.88，小幅亏损-1.31%，云计算基本面无变",
+        "HOLD GOOGL - 现价$308.70，盈利+3.11%，表现最佳，AI 变现能力强",
+        "维持当前配置，现金仓位~34%，等待更好机会"
       ]
     }
   ]
