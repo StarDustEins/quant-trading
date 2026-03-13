@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-03-12",
+  "updatedAt": "2026-03-13",
   "initialCapital": 1000000,
   "cash": 214226,
   "positions": [
@@ -10,80 +10,81 @@
       "name": "NVIDIA Corporation",
       "shares": 1300,
       "avgCost": 185,
-      "currentPrice": 186.03,
+      "currentPrice": 183.14,
       "buyDate": "2026-02-23",
-      "marketValue": 241839,
-      "unrealizedPnL": 1339,
-      "unrealizedPnLPercent": 0.56,
+      "marketValue": 238082,
+      "unrealizedPnL": -2418,
+      "unrealizedPnLPercent": -1.01,
       "currency": "USD",
-      "note": "【持有】AI 芯片龙头，现价$186.03，盈利 +0.56%，分析师目标价$266，长期趋势向好"
+      "note": "【持有】AI 芯片龙头，现价$183.14，亏损 -1.01%，市场回调但长期 AI 趋势不变"
     },
     {
       "code": "AMD",
       "name": "Advanced Micro Devices",
       "shares": 246,
       "avgCost": 203.25,
-      "currentPrice": 204.83,
+      "currentPrice": 197.74,
       "buyDate": "2026-03-10",
-      "marketValue": 50388,
-      "unrealizedPnL": 389,
-      "unrealizedPnLPercent": 0.78,
+      "marketValue": 48644,
+      "unrealizedPnL": -1355,
+      "unrealizedPnLPercent": -2.71,
       "currency": "USD",
-      "note": "【新买入】AI芯片多元化配置，数据中心需求强劲，受益于AI发展浪潮"
+      "note": "【持有】AI 芯片多元化配置，现价$197.74，亏损 -2.71%，数据中心需求仍强劲"
     },
     {
       "code": "MSFT",
       "name": "Microsoft Corporation",
       "shares": 195,
       "avgCost": 410.26,
-      "currentPrice": 404.88,
+      "currentPrice": 401.86,
       "buyDate": "2026-03-10",
-      "marketValue": 78952,
-      "unrealizedPnL": -1049,
-      "unrealizedPnLPercent": -1.31,
+      "marketValue": 78363,
+      "unrealizedPnL": -1638,
+      "unrealizedPnLPercent": -2.05,
       "currency": "USD",
-      "note": "【新买入】云计算+AI双轮驱动，Azure增长强劲，企业数字化转型受益"
+      "note": "【持有】云计算+AI 双轮驱动，现价$401.86，亏损 -2.05%，Azure 增长基本面未变"
     },
     {
       "code": "GOOGL",
       "name": "Alphabet Inc.",
       "shares": 167,
       "avgCost": 299.4,
-      "currentPrice": 308.7,
+      "currentPrice": 303.55,
       "buyDate": "2026-03-10",
-      "marketValue": 51553,
-      "unrealizedPnL": 1553,
-      "unrealizedPnLPercent": 3.11,
+      "marketValue": 50693,
+      "unrealizedPnL": 693,
+      "unrealizedPnLPercent": 1.39,
       "currency": "USD",
-      "note": "【新买入】估值合理，AI变现能力强，搜索业务稳定，YouTube增长强劲"
+      "note": "【持有】表现最佳，现价$303.55，盈利 +1.39%，AI 变现能力强，搜索业务稳定"
     }
   ],
   "marketConditions": {
-    "date": "2026-03-12",
-    "sp500": "6,728.00 (-0.76%)",
-    "nasdaq": "24,785.25 (-0.79%)",
-    "vix": "24.23 (-2.81%)",
-    "oil": "pending",
-    "gold": "5,140.00 (-0.75%)",
-    "sentiment": "cautious",
-    "note": "期货市场小幅回调，VIX 下降显示恐慌情绪缓解，科技股整体稳定"
+    "date": "2026-03-13",
+    "sp500": "6,681.00 (+0.05% 期货)",
+    "nasdaq": "24,531.25 (-0.12% 期货)",
+    "vix": "27.29 (+12.63%)",
+    "gold": "5,103.30 (-0.44%)",
+    "bitcoin": "70,574.63 (+0.55%)",
+    "treasury10y": "4.2730 (+1.54%)",
+    "sentiment": "risk-off",
+    "note": "VIX 飙升显示市场恐慌，地缘政治紧张（伊朗冲突）持续，科技股普遍回调，但期货市场企稳"
   },
   "portfolioSummary": {
-    "totalValue": 636958,
-    "totalPnL": -196542,
-    "totalPnLPercent": -19.65,
+    "totalValue": 630008,
+    "totalPnL": -369992,
+    "totalPnLPercent": -37.0,
     "cashPosition": 214226,
-    "equityValue": 422732,
-    "cashPercent": 33.63
+    "equityValue": 415782,
+    "cashPercent": 34.0
   },
   "recommendations": [
-    "✅ NVDA: 持有 1300 股，现价$186.03，盈利 +0.56%，AI 龙头趋势向好",
-    "✅ AMD: 持有 246 股，现价$204.83，盈利 +0.78%，数据中心需求强劲",
-    "✅ MSFT: 持有 195 股，现价$404.88，亏损 -1.31%，云计算+AI 双轮驱动",
-    "✅ GOOGL: 持有 167 股，现价$308.70，盈利 +3.11%，估值合理 AI 变现强",
-    "HOLD - 所有持仓表现稳定，继续持有观察",
-    "保持现金仓位~34% 以应对市场波动和把握机会",
-    "关注：AI 芯片需求、云计算增长、美联储政策动向"
+    "⚠️ NVDA: 持有 1300 股，现价$183.14，亏损 -1.01%，AI 长期趋势不变，建议继续持有",
+    "⚠️ AMD: 持有 246 股，现价$197.74，亏损 -2.71%，AI 芯片多元化配置，逢低可考虑加仓",
+    "⚠️ MSFT: 持有 195 股，现价$401.86，亏损 -2.05%，云计算基本面稳健，持有观察",
+    "✅ GOOGL: 持有 167 股，现价$303.55，盈利 +1.39%，表现最佳，AI 变现能力强",
+    "HOLD - 市场波动加剧，VIX 升至 27.29，建议保持现有仓位观察",
+    "现金仓位 34% 适中，可应对市场波动或把握逢低布局机会",
+    "关注：伊朗局势发展、美联储政策、AI 芯片需求、科技股财报"
   ],
   "history": [
     {
@@ -284,7 +285,7 @@
     {
       "date": "2026-03-10",
       "action": "rebalance",
-      "note": "执行调仓计划：卖出光线传媒止损，买入美股科技龙头。伊朗冲突可能结束，油价回调，市场情绪改善，科技股反弹，逢低布局优质AI和云计算标的。",
+      "note": "执行调仓计划：卖出光线传媒止损，买入美股科技龙头。伊朗冲突可能结束，油价回调，市场情绪改善，科技股反弹，逢低布局优质 AI 和云计算标的。",
       "marketConditions": {
         "sp500": "6,774.00 (-0.40%)",
         "nasdaq": "24,884.25 (-0.43%)",
@@ -312,7 +313,7 @@
           "price": 203.25,
           "amount": 50000,
           "currency": "USD",
-          "note": "AI芯片多元化配置，数据中心需求强劲"
+          "note": "AI 芯片多元化配置，数据中心需求强劲"
         },
         {
           "action": "BUY",
@@ -322,7 +323,7 @@
           "price": 410.26,
           "amount": 80000,
           "currency": "USD",
-          "note": "云计算+AI双轮驱动，Azure增长强劲"
+          "note": "云计算+AI 双轮驱动，Azure 增长强劲"
         },
         {
           "action": "BUY",
@@ -332,7 +333,7 @@
           "price": 299.4,
           "amount": 50000,
           "currency": "USD",
-          "note": "估值合理，AI变现能力强，搜索业务稳定"
+          "note": "估值合理，AI 变现能力强，搜索业务稳定"
         }
       ],
       "portfolioSummary": {
@@ -345,8 +346,8 @@
         "currencyNote": "已执行调仓，集中配置美股科技龙头"
       },
       "nextSteps": [
-        "继续持有NVDA，等待AI芯片行业复苏",
-        "关注AMD、MSFT、GOOGL财报表现",
+        "继续持有 NVDA，等待 AI 芯片行业复苏",
+        "关注 AMD、MSFT、GOOGL 财报表现",
         "保持适度现金仓位，把握市场波动机会",
         "关注地缘政治发展，及时调整风险敞口"
       ]
@@ -382,9 +383,46 @@
       "recommendations": [
         "HOLD NVDA - 现价$186.03，盈利+0.56%，分析师目标价$266，继续持有",
         "HOLD AMD - 现价$204.83，盈利+0.78%，AI 芯片多元化配置见效",
-        "HOLD MSFT - 现价$404.88，小幅亏损-1.31%，云计算基本面无变",
+        "HOLD MSFT - 现价$404.88，小幅亏损 -1.31%，云计算基本面无变",
         "HOLD GOOGL - 现价$308.70，盈利+3.11%，表现最佳，AI 变现能力强",
         "维持当前配置，现金仓位~34%，等待更好机会"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "action": "analyze",
+      "note": "每日量化分析报告。市场波动加剧，VIX 飙升 12.63% 至 27.29 显示恐慌情绪升温。伊朗冲突持续，科技股普遍回调。NVDA 跌破$184，AMD 跌超 3%，MSFT 小幅下跌，GOOGL 仍保持盈利。总组合受市场拖累。",
+      "marketConditions": {
+        "date": "2026-03-13",
+        "sp500Futures": "6,681.00 (+0.05%)",
+        "nasdaqFutures": "24,531.25 (-0.12%)",
+        "vix": "27.29 (+12.63%)",
+        "gold": "5,103.30 (-0.44%)",
+        "bitcoin": "70,574.63 (+0.55%)",
+        "treasury10y": "4.2730 (+1.54%)",
+        "sentiment": "risk-off",
+        "note": "VIX 飙升显示市场恐慌，地缘政治紧张持续，科技股回调，期货市场企稳"
+      },
+      "stockPrices": {
+        "NVDA": 183.14,
+        "AMD": 197.74,
+        "MSFT": 401.86,
+        "GOOGL": 303.55
+      },
+      "portfolioSummary": {
+        "totalValue": 630008,
+        "totalPnL": -369992,
+        "totalPnLPercent": -37.0,
+        "cashPosition": 214226,
+        "equityValue": 415782,
+        "cashPercent": 34.0
+      },
+      "recommendations": [
+        "HOLD NVDA - 现价$183.14，亏损 -1.01%，AI 长期趋势不变，继续持有",
+        "HOLD AMD - 现价$197.74，亏损 -2.71%，逢低可考虑加仓",
+        "HOLD MSFT - 现价$401.86，亏损 -2.05%，云计算基本面稳健",
+        "HOLD GOOGL - 现价$303.55，盈利 +1.39%，表现最佳",
+        "保持现金仓位 34%，等待市场企稳或逢低布局"
       ]
     }
   ]
