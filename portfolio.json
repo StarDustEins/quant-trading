@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
   "createdAt": "2026-02-18",
-  "updatedAt": "2026-03-23",
-  "dataNote": "⚠️ 数据说明：通过 MarketWatch 获取 2026-03-20（周五）收盘价数据。今日为周一早晨 8:05 AM（美东时间 2026-03-23 00:05），美股将于 9:30 AM 开市。数据截至上周五收盘。",
+  "updatedAt": "2026-03-24",
+  "dataNote": "⚠️ 数据说明：通过 Google Finance 获取 2026-03-23（周一）收盘价数据。今日为周二早晨 8:11 AM（美东时间 2026-03-24 00:11），美股已正常开市。数据截至 3/23 周一收盘。",
   "initialCapital": 1000000,
   "cash": 214226,
   "positions": [
@@ -11,81 +11,80 @@
       "name": "NVIDIA Corporation",
       "shares": 1300,
       "avgCost": 185.0,
-      "currentPrice": 172.7,
+      "currentPrice": 175.68,
       "buyDate": "2026-02-23",
-      "marketValue": 224510.0,
-      "unrealizedPnL": -15990.0,
-      "unrealizedPnLPercent": -6.65,
+      "marketValue": 228384.0,
+      "unrealizedPnL": -12116.0,
+      "unrealizedPnLPercent": -5.04,
       "currency": "USD",
-      "note": "【持有】AI 芯片龙头，现价$172.70，亏损 -6.65%，GTC 大会后续影响持续，分析师目标价$260+，长期趋势未变"
+      "note": "【持有】AI 芯片龙头，现价$175.68，亏损 -5.04%，较上周五$172.70反弹 +1.73%，美伊局势缓和利好科技股，分析师目标价$260+，长期持有"
     },
     {
       "code": "AMD",
       "name": "Advanced Micro Devices",
       "shares": 246,
       "avgCost": 203.25,
-      "currentPrice": 201.33,
+      "currentPrice": 202.68,
       "buyDate": "2026-03-10",
-      "marketValue": 49527.18,
-      "unrealizedPnL": -472.32,
-      "unrealizedPnLPercent": -0.94,
+      "marketValue": 49859.28,
+      "unrealizedPnL": -140.22,
+      "unrealizedPnLPercent": -0.28,
       "currency": "USD",
-      "note": "【持有】AI 芯片多元化配置，现价$201.33，亏损 -0.94%，近期表现优于 NVDA，可逢低小幅加仓"
+      "note": "【持有】AI 芯片多元化配置，现价$202.68，亏损 -0.28%，近期表现优于 NVDA，分析师目标价$290，数据中心 AI 需求强劲，逢低小幅加仓"
     },
     {
       "code": "MSFT",
       "name": "Microsoft Corporation",
       "shares": 195,
       "avgCost": 410.26,
-      "currentPrice": 381.87,
+      "currentPrice": 383.21,
       "buyDate": "2026-03-10",
-      "marketValue": 74464.65,
-      "unrealizedPnL": -5536.05,
-      "unrealizedPnLPercent": -6.92,
+      "marketValue": 74725.95,
+      "unrealizedPnL": -5274.75,
+      "unrealizedPnLPercent": -6.59,
       "currency": "USD",
-      "note": "【持有】云计算+AI 双轮驱动，现价$381.87，亏损 -6.92%，Azure 基本面稳健，估值有吸引力"
+      "note": "【持有】云计算+AI 双轮驱动，现价$383.21，亏损 -6.59%，分析师强力买入评级，目标价$590-$600，上涨空间超 50%，逢低布局时机"
     },
     {
       "code": "GOOGL",
       "name": "Alphabet Inc.",
       "shares": 167,
       "avgCost": 299.4,
-      "currentPrice": 301.0,
+      "currentPrice": 302.2,
       "buyDate": "2026-03-10",
-      "marketValue": 50267.0,
-      "unrealizedPnL": 267.2,
-      "unrealizedPnLPercent": 0.53,
+      "marketValue": 50467.4,
+      "unrealizedPnL": 467.6,
+      "unrealizedPnLPercent": 0.94,
       "currency": "USD",
-      "note": "【持有】唯一盈利持仓，现价$301.00，盈利 +0.53%，AI 变现能力强，分析师评级强劲"
+      "note": "【持有】唯一盈利持仓，现价$302.20，盈利 +0.94%，Google Cloud +34% 增长，分析师目标价$350，上涨空间 16%，适度加仓"
     }
   ],
   "marketConditions": {
-    "date": "2026-03-20（周五收盘）",
-    "sp500": "6,506.48 (-1.51%)",
-    "nasdaq": "21,647.61 (-2.01%)",
-    "vix": "26.78 (+11.31%)",
-    "gold": "4,465.10 (-2.40%)",
-    "oil": "98.62 (+0.40%)",
-    "bitcoin": "data unavailable",
-    "sentiment": "risk-off",
-    "note": "市场大幅下跌，S&P 500 和 Nasdaq 均创新低。VIX 飙升 +11.31% 至 26.78，显示恐慌情绪升温。Trump 威胁轰炸伊朗核设施，油价突破$98。S&P 500 接近修正区间（-10%）。科技股普遍承压，芯片板块因 Super Micro 丑闻领跌。"
+    "date": "2026-03-23（周一收盘）",
+    "sp500": "6,581.00 (+1.15%)",
+    "nasdaq": "21,946.76 (+1.38%)",
+    "dow": "46,208.47 (+1.38%)",
+    "vix": "data unavailable",
+    "sentiment": "risk-on",
+    "note": "市场大幅反弹！S&P 500 +1.15%，Nasdaq +1.38%，Dow +1.38%。美伊局势出现缓和迹象（Trump 软化立场），科技股普遍反弹。NVDA +1.59%，AVGO +4.08%（AI 需求强劲），芯片板块领涨。市场恐慌情绪缓解，但地缘政治风险仍存。"
   },
   "portfolioSummary": {
-    "totalValue": 612994.83,
-    "totalPnL": -387005.17,
-    "totalPnLPercent": -38.7,
+    "totalValue": 617662.63,
+    "totalPnL": -382337.37,
+    "totalPnLPercent": -38.23,
     "cashPosition": 214226,
-    "equityValue": 398768.83,
-    "cashPercent": 34.95
+    "equityValue": 403436.63,
+    "cashPercent": 34.68
   },
   "recommendations": [
-    "⚠️ NVDA: 持有 1300 股，现价$172.70，亏损 -6.65%，GTC 后续影响持续，分析师目标价$260+，长期持有",
-    "⚠️ AMD: 持有 246 股，现价$201.33，亏损 -0.94%，近期表现优于 NVDA，可逢低小幅加仓",
-    "⚠️ MSFT: 持有 195 股，现价$381.87，亏损 -6.92%，云计算基本面稳健，估值具吸引力，持有观察",
-    "✅ GOOGL: 持有 167 股，现价$301.00，盈利 +0.53%，唯一盈利持仓，AI 变现能力强，适度加仓",
-    "⚠️ HOLD - 市场恐慌情绪升温（VIX 26.78 +11.31%），S&P 500 接近修正区间，建议保持现有仓位",
-    "关注：伊朗局势（Trump 威胁轰炸核设施）、油价走势（$98+）、美联储政策动向、市场恐慌情绪是否持续",
-    "关注：Super Micro 丑闻对芯片板块影响、NVDA GTC 大会后续、AI 芯片需求数据"
+    "✅ NVDA: 持有 1300 股，现价$175.68，亏损 -5.04%，美伊局势缓和推动反弹 +1.73%，GTC 后续影响持续，分析师目标价$260+，长期持有",
+    "✅ AMD: 持有 246 股，现价$202.68，亏损 -0.28%，接近盈亏平衡，数据中心 AI 需求强劲，分析师目标价$290，可适度加仓",
+    "✅ MSFT: 持有 195 股，现价$383.21，亏损 -6.59%，分析师强力买入评级，目标价$590-$600，上涨空间 50%+，逢低布局时机",
+    "✅ GOOGL: 持有 167 股，现价$302.20，盈利 +0.94%，Google Cloud +34% 增长，分析师目标价$350，上涨空间 16%，适度加仓",
+    "💡 BUY AVGO: 博通 $322.51 (+4.08%)，AI 芯片需求强劲，分析师看好，上涨空间大",
+    "💡 BUY AMZN: 亚马逊 $210.25 (+2.38%)，电商+云业务稳健，AI 布局深厚",
+    "⚠️ HOLD - 市场情绪改善但地缘政治风险仍存，建议保持 34% 现金仓位观望",
+    "关注：美伊谈判进展、美联储 3 月利率决议、NVDA GTC 后续影响、AI 芯片需求数据"
   ],
   "history": [
     {
@@ -574,6 +573,42 @@
         "⚠️ HOLD - 市场恐慌情绪升温（VIX 26.78 +11.31%），S&P 500 接近修正区间，建议保持现有仓位",
         "关注：伊朗局势（Trump 威胁轰炸核设施）、油价走势（$98+）、美联储政策动向、市场恐慌情绪是否持续",
         "关注：Super Micro 丑闻对芯片板块影响、NVDA GTC 大会后续、AI 芯片需求数据"
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "action": "analyze",
+      "note": "每日量化分析报告（周二早晨）。市场大幅反弹，S&P 500 +1.15%，Nasdaq +1.38%。美伊局势出现缓和迹象（Trump 软化立场），科技股普遍反弹。NVDA .68 (+1.59%)，AMD .68 (+0.67%)，MSFT .21 (+0.36%)，GOOGL .20 (+0.40%)。组合今日反弹约 +$4,668，3日累计反弹 +$9,123。总体亏损收窄至 -38.23%。分析师普遍看好 MSFT 目标价 $590+，GOOGL 目标价 $350，逢低布局时机。",
+      "marketConditions": {
+        "date": "2026-03-23（周一收盘）",
+        "sp500": "6,581.00 (+1.15%)",
+        "nasdaq": "21,946.76 (+1.38%)",
+        "dow": "46,208.47 (+1.38%)",
+        "sentiment": "risk-on",
+        "note": "市场大幅反弹！美伊局势缓和信号提振市场，科技股普涨，芯片板块领涨"
+      },
+      "stockPrices": {
+        "NVDA": 175.68,
+        "AMD": 202.68,
+        "MSFT": 383.21,
+        "GOOGL": 302.2
+      },
+      "portfolioSummary": {
+        "totalValue": 617662.63,
+        "totalPnL": -382337.37,
+        "totalPnLPercent": -38.23,
+        "cashPosition": 214226,
+        "equityValue": 403436.63,
+        "cashPercent": 34.68
+      },
+      "recommendations": [
+        "✅ NVDA: 持有 1300 股，现价$175.68，亏损 -5.04%，反弹中，继续持有",
+        "✅ AMD: 持有 246 股，现价$202.68，亏损 -0.28%，接近盈亏平衡，适度加仓",
+        "✅ MSFT: 持有 195 股，现价$383.21，亏损 -6.59%，分析师目标价$590+，上涨空间 50%+",
+        "✅ GOOGL: 持有 167 股，现价$302.20，盈利 +0.94%，分析师目标价$350，上涨空间 16%",
+        "💡 BUY AVGO: 博通 $322.51 (+4.08%)，AI 芯片需求强劲",
+        "💡 BUY AMZN: 亚马逊 $210.25 (+2.38%)，电商+云业务稳健",
+        "⚠️ 保持 34% 现金仓位，等待更好机会"
       ]
     }
   ]
